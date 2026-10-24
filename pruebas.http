@@ -1,0 +1,3 @@
+
+### B8 - GET inexistente (404)
+GET http://localhost:8080/api/alumnos/999

@@ -79,7 +79,7 @@ public class Alumno {
         this.promedio = promedio;
     }
 
-    // Atributo calculado: no se guarda en la tabla, se envia en el JSON
+   
     @Transient
     public String getEstadoAcademico() {
         return promedio >= 13 ? "REGULAR" : "EN RIESGO";
